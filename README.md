@@ -1,6 +1,6 @@
 # Using Deep-Learning to classify individual ponds of small scale gold mining in Ghana
 
-In this project a classification tool was developed that can identify and categorise gold mining ponds usng Sentinel-2 images. 
+In this project a classification tool was developed that can identify and categorise gold mining ponds using Sentinel-2 images. 
 
 All of the nessesary data preprocessing is stored in the preprocesssor module within the Tools package. Function create_model_dataset encapsulates all the tasks needed to prepare training data, so it is the only one used in Workflow_Notebook. However, one can refer to the docstrings in each helper function for the detailed descriptions of tasks performed. If re-training models with other samples, one can use the data loading functions available in this project, given the folder structure is the following:
 
